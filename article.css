@@ -1,0 +1,27 @@
+.content-block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.content-block:nth-child(even) {
+  flex-direction: row-reverse; 
+}
+.content-block img,
+.content-block iframe {
+  max-width: 400px;
+  margin-left: auto; 
+}
+.content-block article {
+  flex: 1;
+}
+.content-wrapper {
+  display: flex;
+}
+.text-wrapper {
+  flex: 1;
+  margin-left: 20px; 
+}
+.lilo {
+  margin-left: 40px; /* Вы можете изменить значение отступа на свое усмотрение */
+}
